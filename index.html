@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--FUENTE GOLOS TEXT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
+
+    <!--BIBLIOTECA JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!--ICONOS-->
+    <script src="https://kit.fontawesome.com/4b75d911c6.js" crossorigin="anonymous"></script> 
+
+    <title>CV Ovando Kevin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="pagina">
+        <!-- BARRA DE NAVEGACION  -->
+        <header>
+          <nav class="menu">
+            <ul>
+              <li><a href="#info">Perfil</a></li>
+              <li><a href="#Experiencia">Experiencia</a></li>
+              <li><a href="#Habilidades">Habilidades</a></li>
+              <li><a href="#estudios">Educación</a></li>
+            </ul>
+          </nav>
+
+  <section id="-header">
+    <article id="perfil">
+        <figure id="foto">
+            <img src="" alt="Foto de perfil" id="fotoPerfil" />
+        </figure>
+    </article>
+
+    <article id="redes">
+        <figure title="Github" class="redesContacto">
+            <a href="https://github.com/" target="_blank">
+                <img id="img-github" src="Iconos/github-mark.png" class="imgRedes"
+                    alt="Github logo">
+            </a>
+        </figure>
+        <figure title="LinkedIn" class="redesContacto">
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img id="img-lin" src="Iconos/In-Blue-96@2x.png" class="imgRedes"
+                    alt="LinkedIn logo">
+            </a>
+        </figure>
+    </article>
+
+    <article id="nombreTitulo">
+      <h1 class="nombreTitulo" id="apellidoPersona"></h1>
+      <h1 class="nombreTitulo" id="nombrePersona"></h1>
+      <h2 class="nombreTitulo" id="profesionPersona">Desarrollador</h2>
+    </article>
+  </section>
+</header>
+
+<div class="Perfil">
+  <h1>Sobre mí</h1>
+  <p id="aboutme">Desarrollador de software con experiencia en diseño, instalación, pruebas y mantenimiento de sistemas de software. 
+  Dominio de varias plataformas, lenguajes y sistemas integrados. 
+  Experiencia en las herramientas y procedimientos de desarrollo más vanguardistas. 
+  Capaz de la autogestión eficaz en proyectos independientes. 
+  Habilidades de colaboración y trabajo en equipo.</p>
+</div>
+
+    <!--DATOS PERSONALES -->
+    <h2></h2>
+      <section id="info">
+
+          <article id="titInfoPersonal" >
+  
+          </article>
+          <article class="datos">
+            <i class="fa-solid fa-address-card iconoTitulo"></i>
+            <h2>Información personal</h2>
+              <p><span class="resaltar">Documento:</span> <span id="identificacionPersona"></span></p>
+              <p><span class="resaltar">Fecha de nacimiento:</span> <span id="nacimientoPersona"></span></p>
+              <p><span class="resaltar">Ciudad:</span> <span id="residenciaPersona"></span></p>
+              <p><span class="resaltar">Calle:</span> <span id="callePersona"></span></p>
+              <p><span class="resaltar">Código postal:</span> <span id="codPostPersona"></p>
+          </article>
+      </section>
+
+
+        <!--EXPERIENCIA-->
+
+        <section id="Experiencia" class="tema">
+          <article>
+            <i class="fa-solid fa-building iconoTitulo"></i>
+              <h2>Experiencia laboral</h2>
+          </article>
+          <article>
+              <ul class="datos">
+              
+                      <p><span class="resaltar">Programador Full Stack</span></p>
+                        <p id="expLugar">Buenos Aires</p>
+                          <li>
+                           Front End y Back End de aplicaciones con Javascript, MySQL, HTML5.
+                          </li>
+                          <li>
+                            Realización de test de aplicaciones
+                          </li>
+                          <li>
+                            Solución de incidencias
+                          </li>
+                          </p>
+                  
+                      <p><span class="resaltar">Programador web</span> </p>
+                      <p id="expLugar">Buenos Aires</p>
+                          <li>
+                           Desarrollo de aplicaciones web para clientes de la empresa del sector financiero utilizando Javascript, PHP
+                          </li>
+                          <li>
+                            Mantenimiento de aplicaciones web
+                          </li>
+                          <li>
+                           Manejo de datos XML, JSON
+                          </li>
+                          <li>
+                            Maquetación HTML5, CSS3, Bootstrap
+                           </li>
+                          </p>  
+              </ul>
+          </article>
+      </section>
+
+        
+
+
+  <div id="Habilidades">
+    <i class="fa-solid fa-laptop-code iconoTitulo"></i>
+    <div>
+      <h2>Lenguajes y frameworks</h2>
+    </div>
+      <div>
+          <li>
+          HTML5
+          </li>
+          <li>
+          JavaScript
+          </li>
+          <li>  
+          Css
+          </li>
+          <li>
+            PHP
+          </li>
+          <li>
+            Angular
+          </li>
+          <li>
+            Bootstrap
+          </li>
+      </div>
+  </div>
+  
+<article id="estudios" class="t">
+    <i class="fa-solid fa-graduation-cap iconoTitulo"></i>
+      <h2>Estudios Academicos</h2>
+  </article>
+  <article>
+      <ul class="datos">
+          <li>
+              <p><span class="resaltar">Máster en Ingeniería Informática.</span><span>  Universidad de Buenos Aires.</span> Escuela de Ingeniería de Informática</p>
+          </li>
+          
+          <li>
+              <p><span class="resaltar">Licenciatura en Ingeniería Informática.</span><span>  Universidad de Buenos Aires.</span> Escuela de Ingeniería de Informática</p>
+          </li>
+      </ul>
+  </article>
+</section>
+
+<div id="idiomas">
+  <i class="fa-solid fa-globe iconoTitulo"></i>
+    <h2>Idiomas</h2>
+    <div>
+        <li>
+       Ingles: Alto
+        </li>
+        <li>
+       Español: Nativo
+        </li>
+        
+    </div>
+  </div>
+</div>
+
+
+<footer>
+  COPYRIGHT © 2023 DESIGNED & DEVELOPED BY OVANDO KEVIN
+</footer>
+
+<script src="Script-cv.js"></script>
+
+</body>
+</html>

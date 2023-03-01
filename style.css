@@ -1,0 +1,222 @@
+:root{
+    font-size: 15px;
+    font-family: 'Golos Text', sans-serif;
+    --color-2: #00000027;
+    --color-3: #df2b2bbe;
+    --color-pagina: rgba(255, 255, 255, 0.808);
+    --color-texto: black;
+    color: var(--color-texto);
+}
+body{
+background-color: var(--color-2);
+justify-content: center;
+color: var(--color-texto);
+margin: 0;
+}
+
+#profesionPersona{
+    font-size: 1.60rem;
+    
+}
+
+
+
+#pagina{
+display: flexbox;
+justify-content:center;
+margin: auto;
+min-width: 650px;
+max-width: 65%;
+padding: 30px;
+background-color: var(--color-pagina);
+}
+
+#aboutme{
+    line-height : 35px;
+
+
+}
+
+p{
+font-family: 'Golos Text';
+font-size: 1.05em;
+}
+
+#idiomas {
+    margin-bottom: 50px;
+}
+
+/* Elementos del header */
+.-header{
+width: 500px;
+height: 16px;
+
+display: flex;
+}
+
+#estudios.titulo{
+    padding: 0px 0px 0px;
+}
+
+nav{
+display: flex;
+justify-content: space-evenly;
+align-items: center ;
+padding: 2.1rem 1rem;
+background-color: var(--color-2);
+}
+
+nav ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+nav ul li{
+display: inline-block;
+
+}
+nav ul li a{
+color: var(--color-texto);
+text-decoration: none;
+font-size: 1rem;
+display: block;
+padding: 1rem;
+}
+
+#titInfoPersonal{
+margin: 0px;
+}
+
+
+#perfil{
+float: left;
+min-width: 128px;
+max-width: 140px;
+width: 20%;
+height: 100%;
+margin-left: 10px;
+margin-bottom: 60px;
+}
+
+.Perfil{
+    margin-bottom: 20px;
+
+}
+
+
+#foto{
+margin: 20px;
+margin-top: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-width: 128px;
+min-height: 128px;
+width: 99%;
+height: 99%;
+
+}
+
+
+#fotoPerfil{
+border-radius: 50%;
+width: 128px;
+height: 128px;
+}
+
+
+#redes{
+float: left;
+width: 80px;
+height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+
+.redesContacto{
+margin: 16px 0px;
+display: flex;
+justify-content: center;
+
+}
+
+.imgRedes {
+height: 40px;
+}
+.imgRedes:hover  {
+transform: scale(1.25);
+transition: 0.5s ease 0.05s;
+}
+
+
+#nombreTitulo{
+float: left;
+flex-direction: row;
+min-width: 350px;
+margin: auto;
+text-align: left;
+font-size: 2rem;
+}
+
+.iconoTitulo {
+    float: left;
+    flex-direction: row;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 5px;
+    font-size: 1.4rem;
+}
+
+li{
+    margin: 4px;
+}
+
+.tema{
+clear: both;
+padding-bottom: 15px;
+}
+
+#Habilidades{
+    margin-bottom: 5px;
+}
+
+.datos {
+padding-left: 15px;
+}
+
+.resaltar {
+font-family: 'Golos Text';
+text-decoration: underline;
+}
+
+
+.titulo {
+padding-bottom: 4em;
+border-bottom: 1px solid var(--color-3);
+}
+
+
+[id^=mostrar] {
+display: none;
+}
+
+
+
+footer {
+clear: both;
+
+padding-top: 1em;
+text-align: center;
+margin-top: 10px;
+}
+
+a{
+color: inherit;
+}
+footer a:hover{
+color: var(--color-3);
+font-weight: bold;
+}
+
